@@ -19,5 +19,5 @@ void main()
           printf("%d\t",i);
       }
   }
-
+      getch();
 }
