@@ -1,12 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
+#include<string.h>
 /************************************************
 Author : Meganadha Reddy K
 Purpose : Read string from user and print size and reverse of it
 *********************************************************/
 void main()
 {
-    char name[30];
+    char name[30],temp;
     int i, length=0;
     printf("Enter your name:");
     scanf("%s",&name);
@@ -17,6 +18,13 @@ void main()
     printf("Length of the entered string is : %d\n\n",length);
 
     /* Logic to print reverse of the string */
-    for(i=length-1;i>=0;i--)
-        printf("%c",name[i]);
+    int n=strlen(name);
+    int end=n-1;
+ 	for(i=0;i<n/2;i++){
+ 		 temp=name[i];
+		 name[i]=name[end];
+		 name[end]=temp;
+		 end--;
+	 }
+    name[i]='\0';
 }
