@@ -14,7 +14,7 @@ void main()
         case 'u':printf("Vowel");
                  break;
         default : printf("Consonent");
-                 break;
+               break; //break is not required after default case
 
     }
 }
