@@ -2,7 +2,7 @@
 #include<conio.h>
 /*****************************************************
 * Author : Meganadha Reddy K
-* Purpose : To read two numbers from user and print sum and average
+* Purpose : To read two numbers from user and print sum and average of two numbers
 ******************************************************/
 void main()
 {
