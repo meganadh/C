@@ -15,7 +15,7 @@ void main()
     printf("Enter second number:");
     scanf("%d",&sn);
 
-    //Logic
+    //Logic - Sum and average
     sum=fn+sn;
     average=sum/2.0;
 
