@@ -6,7 +6,7 @@
 ******************************************************/
 void main()
 {
-    int fn, sn, sum;
+    int fn, sn, sum=0;
     float average;
 
     //Read values from user
