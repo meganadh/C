@@ -1,5 +1,4 @@
-# este e um repositorio do git para a materia de programação ii.
-a
+teste de prog ii aula na quarta muito legal e divertida
 a
 a
 a
